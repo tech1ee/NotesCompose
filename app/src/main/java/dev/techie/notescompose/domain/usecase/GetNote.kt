@@ -1,6 +1,6 @@
 package dev.techie.notescompose.domain.usecase
 
-import dev.techie.notescompose.Note
+import dev.techie.notescompose.domain.Note
 import dev.techie.notescompose.domain.NotesRepository
 
 class GetNote(

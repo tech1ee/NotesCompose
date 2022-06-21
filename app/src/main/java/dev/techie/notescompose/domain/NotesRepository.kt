@@ -1,6 +1,5 @@
 package dev.techie.notescompose.domain
 
-import dev.techie.notescompose.Note
 import kotlinx.coroutines.flow.Flow
 
 interface NotesRepository {

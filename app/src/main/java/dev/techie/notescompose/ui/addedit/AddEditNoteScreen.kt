@@ -23,7 +23,7 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import dev.techie.notescompose.Note
+import dev.techie.notescompose.domain.Note
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 

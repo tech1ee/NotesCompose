@@ -7,8 +7,8 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import dev.techie.notescompose.InvalidNoteException
-import dev.techie.notescompose.Note
+import dev.techie.notescompose.domain.InvalidNoteException
+import dev.techie.notescompose.domain.Note
 import dev.techie.notescompose.domain.usecase.NoteUseCases
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow

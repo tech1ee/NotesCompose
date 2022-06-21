@@ -2,7 +2,7 @@ package dev.techie.notescompose.data
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import dev.techie.notescompose.Note
+import dev.techie.notescompose.domain.Note
 
 
 @Database(

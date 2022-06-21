@@ -1,7 +1,7 @@
 package dev.techie.notescompose.domain.usecase
 
-import dev.techie.notescompose.InvalidNoteException
-import dev.techie.notescompose.Note
+import dev.techie.notescompose.domain.InvalidNoteException
+import dev.techie.notescompose.domain.Note
 import dev.techie.notescompose.domain.NotesRepository
 
 class AddNote(

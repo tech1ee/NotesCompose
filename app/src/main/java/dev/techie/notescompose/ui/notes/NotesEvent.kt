@@ -1,6 +1,6 @@
 package dev.techie.notescompose.ui.notes
 
-import dev.techie.notescompose.Note
+import dev.techie.notescompose.domain.Note
 import dev.techie.notescompose.domain.NoteOrder
 
 sealed class NotesEvent {

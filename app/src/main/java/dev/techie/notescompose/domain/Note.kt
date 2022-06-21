@@ -1,4 +1,4 @@
-package dev.techie.notescompose
+package dev.techie.notescompose.domain
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

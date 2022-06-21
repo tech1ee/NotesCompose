@@ -1,7 +1,7 @@
 package dev.techie.notescompose.data
 
 import androidx.room.*
-import dev.techie.notescompose.Note
+import dev.techie.notescompose.domain.Note
 import kotlinx.coroutines.flow.Flow
 
 @Dao
