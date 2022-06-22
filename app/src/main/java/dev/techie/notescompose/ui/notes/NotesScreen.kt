@@ -24,6 +24,7 @@ import dev.techie.notescompose.ui.components.NoteItem
 import dev.techie.notescompose.ui.components.OrderSection
 import kotlinx.coroutines.launch
 
+@ExperimentalAnimationApi
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun NotesScreen(
@@ -42,7 +43,7 @@ fun NotesScreen(
                 },
                 backgroundColor = MaterialTheme.colors.primary
             ) {
-                Icon(imageVector = Icons.Default.Add, contentDescription = "Add note")
+                Icon(imageVector = Icons.Default.Add, contentDescription = "Add")
             }
         },
         scaffoldState = scaffoldState

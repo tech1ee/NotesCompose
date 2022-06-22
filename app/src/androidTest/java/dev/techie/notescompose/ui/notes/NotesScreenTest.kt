@@ -1,5 +1,6 @@
 package dev.techie.notescompose.ui.notes
 
+import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.ui.test.*
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.navigation.compose.NavHost
@@ -27,6 +28,7 @@ class NotesScreenTest {
     @get:Rule(order = 1)
     val composeTestRule = createAndroidComposeRule<MainActivity>()
 
+    @ExperimentalAnimationApi
     @Before
     fun setup() {
         hiltRule.inject()
